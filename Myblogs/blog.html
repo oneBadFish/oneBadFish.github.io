@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>OneBadFish</title>
+		<link rel="stylesheet" type="text/css" href="base.css"/>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="jQuery.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="one">
+				<div class="ones clearfix">
+					<div class="oneleft">
+						<div>
+							<h1>
+								OneBadFish
+							</h1>
+						</div>
+					</div>
+					<div class="oneright">
+						<div>
+							<p>
+								This is a rookie blog, hoping to make progress through learning, 
+								strengthen through communication, 
+								and become a mature programmer here.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="two">
+				<div class="twos clearfix">
+					<div class="twoleft">
+						<div class="t1">
+							<div class="t2 clearfix">
+								<h2>Communication in GitHub</h2>
+								<p>Pellentesque sagittis feugiat massa, vitae blandit elit dictum in. 
+									Nam eleifend nunc dui, 
+									sed cusus justo molestie id. 
+									Vestibulum vel sagittis justo.</p>
+								<a href="javascript:;" class="btn">READ MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="tworight">
+						<div class="t3">
+							<div class="t4">
+								<img src="img/cd80776db90b67b0595c2643e748a33.jpg"/>
+								<p>
+									This is a web front-end development learner's blog.
+									 I am a web front-end development enthusiast who loves learning and communicating.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="three">
+				<div class="threes clearfix">
+					<div class="threeleft">
+						<img src="img/1.jpg"/>
+					</div>
+					<div class="threeright">
+						<div class="th1">
+							<div class="th2">
+								<h2>Learning project</h2>
+								<p>This is one of my projects. 
+									Please give me your advice and leave your valuable comments.</p>
+								<a href="javascript:;" class="btn">READ MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="four">
+				<div class="fours">
+					<div class="f1">
+						<h2>Login Information</h2>
+					</div>
+					<div class="f2">
+						<div class="clearfix"> 
+							<div class="left">
+								<div>
+									<button>全部信息</button>
+									<button>全部项目</button>
+									<button>全部博客</button>
+								</div>
+								
+							</div>
+							<div class="right pic">
+								<img src="img/ae87230c5876ec97727d5e05e95b70b.jpg" alt=""/>
+								<s class="s"></s>
+							</div>
+						</div>
+					</div>
+					<div class="f3">
+							<h1>END</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	$(function(){
+		$(".btn").hover(function(){
+			$(this).css("background","red")
+		},function(){
+			$(this).css("background","#993333")
+		});
+		$(".pic").hover(function(){
+			$(".s").css("top","0")
+		},function(){
+			$(".s").css("top","501px")
+		})
+	})
+</script>
